@@ -1,6 +1,36 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff  ;
+  color: #000000;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 175%;
+    line-height: 90%;
+}
+
+P {
+  font-size: 100%;
+}
+
+.author {
+  font-size: 100%;
+    line-height: 3em;
+}
+
+.story-text {
+  font-size: 125%;
+    line-height: 1.2;
+}
+
+figcaption {
+  font-size: 75%;
+    line-height: 1.5;
 }
 
 nav {
@@ -50,3 +80,12 @@ article {
   margin: 0 auto;
   width: 50%;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:link { color:#ffffff; } /* unvisited */
+a:visited { color:#ffffff; } /* visited */
+a:hover { color:#000000; } /* mouse over */
+a:active { color:#0000ff; } /* selected */
